@@ -404,24 +404,20 @@ address{
 
 .port-cards{
     background-color: var(--white-text-color);
-    flex-basis: calc(100% / 3 - 30px );
+    flex-basis: calc((100% - 60px )/3);
     
 }
 
+.card-shadow{
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+}
+
 .title-cards{    
-    padding: 20px 24px 0px 24px;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
     margin-bottom: 4px;
-
 }
 
-.subtitle-cards{
-    padding: 0 24px 20px 24px;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
-}
+
 
 
 
@@ -430,7 +426,7 @@ address{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 0.06em
+    letter-spacing: 0.06px;
 
 }
 
